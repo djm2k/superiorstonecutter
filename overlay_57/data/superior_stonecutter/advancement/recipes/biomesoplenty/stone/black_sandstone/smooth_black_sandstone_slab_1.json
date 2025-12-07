@@ -17,5 +17,13 @@
     "recipes": [
       "superior_stonecutter:biomesoplenty/stone/black_sandstone/smooth_black_sandstone_slab_1"
     ]
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

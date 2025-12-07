@@ -17,5 +17,13 @@
     "recipes": [
       "superior_stonecutter:biomesoplenty/misc/mushroom/glowshroom_4"
     ]
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

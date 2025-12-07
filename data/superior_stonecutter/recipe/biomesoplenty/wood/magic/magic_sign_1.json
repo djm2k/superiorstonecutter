@@ -7,12 +7,20 @@
     {
       "item": "biomesoplenty:magic_slab"
     },
-	{
+    {
       "item": "biomesoplenty:magic_door"
     }
   ],
   "result": {
     "id": "biomesoplenty:magic_sign",
     "count": 1
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

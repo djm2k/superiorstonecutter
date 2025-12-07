@@ -9,5 +9,13 @@
   "result": {
     "id": "biomesoplenty:hellbark_door",
     "count": 3
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

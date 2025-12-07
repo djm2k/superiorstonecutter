@@ -44,5 +44,13 @@
   "result": {
     "id": "deeperdarker:cobbled_gloomslate_slab",
     "count": 1
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "deeperdarker"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

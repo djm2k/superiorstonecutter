@@ -18,5 +18,13 @@
     "recipes": [
       "superior_stonecutter:biomesoplenty/wood/redwood/stripped_redwood_log_1"
     ]
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

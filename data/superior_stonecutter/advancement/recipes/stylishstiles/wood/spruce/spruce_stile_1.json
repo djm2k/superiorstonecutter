@@ -17,5 +17,13 @@
     "recipes": [
       "superior_stonecutter:stylishstiles/wood/spruce/spruce_stile_1"
     ]
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "stylishstiles"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

@@ -7,12 +7,20 @@
     {
       "item": "deeperdarker:bloom_slab"
     },
-	{
+    {
       "item": "deeperdarker:bloom_door"
     }
   ],
   "result": {
     "id": "deeperdarker:bloom_sign",
     "count": 1
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "deeperdarker"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

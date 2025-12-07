@@ -17,5 +17,13 @@
   "result": {
     "id": "biomesoplenty:white_sandstone_stairs",
     "count": 1
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

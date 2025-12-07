@@ -17,5 +17,13 @@
     "recipes": [
       "superior_stonecutter:biomesoplenty/stone/orange_sandstone/smooth_orange_sandstone_slab_1"
     ]
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

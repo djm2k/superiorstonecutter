@@ -7,12 +7,20 @@
     {
       "item": "biomesoplenty:willow_slab"
     },
-	{
+    {
       "item": "biomesoplenty:willow_door"
     }
   ],
   "result": {
     "id": "biomesoplenty:willow_sign",
     "count": 1
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

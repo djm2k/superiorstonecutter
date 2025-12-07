@@ -8,5 +8,13 @@
   "result": {
     "id": "stylishstiles:dark_oak_stile",
     "count": 1
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "stylishstiles"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

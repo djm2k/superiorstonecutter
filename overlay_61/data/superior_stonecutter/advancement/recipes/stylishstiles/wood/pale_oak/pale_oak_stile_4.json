@@ -20,5 +20,13 @@
     "recipes": [
       "superior_stonecutter:stylishstiles/wood/pale_oak/pale_oak_stile_4"
     ]
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "stylishstiles"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

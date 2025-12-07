@@ -17,5 +17,13 @@
     "recipes": [
       "superior_stonecutter:glow_ink_plus/wool/glow_light_gray_carpet_4"
     ]
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "glow_ink_plus"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

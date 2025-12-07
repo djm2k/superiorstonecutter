@@ -14,5 +14,13 @@
   "result": {
     "id": "biomesoplenty:black_sandstone_slab",
     "count": 2
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

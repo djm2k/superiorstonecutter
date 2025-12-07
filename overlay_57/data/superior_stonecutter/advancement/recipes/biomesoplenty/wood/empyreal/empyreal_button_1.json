@@ -18,5 +18,13 @@
     "recipes": [
       "superior_stonecutter:biomesoplenty/wood/empyreal/empyreal_button_1"
     ]
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

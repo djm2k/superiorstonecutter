@@ -17,5 +17,13 @@
   "result": {
     "id": "biomesoplenty:jacaranda_fence_gate",
     "count": 4
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

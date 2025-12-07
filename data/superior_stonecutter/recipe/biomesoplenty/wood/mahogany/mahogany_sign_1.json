@@ -7,12 +7,20 @@
     {
       "item": "biomesoplenty:mahogany_slab"
     },
-	{
+    {
       "item": "biomesoplenty:mahogany_door"
     }
   ],
   "result": {
     "id": "biomesoplenty:mahogany_sign",
     "count": 1
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

@@ -4,7 +4,7 @@
     {
       "item": "glow_ink_plus:glow_black_wool"
     },
-	{
+    {
       "item": "glow_ink_plus:glow_blue_wool"
     },
     {
@@ -53,5 +53,13 @@
   "result": {
     "id": "minecraft:string",
     "count": 4
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "glow_ink_plus"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

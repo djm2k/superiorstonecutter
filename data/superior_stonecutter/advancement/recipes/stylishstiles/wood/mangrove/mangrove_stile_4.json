@@ -20,5 +20,13 @@
     "recipes": [
       "superior_stonecutter:stylishstiles/wood/mangrove/mangrove_stile_4"
     ]
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "stylishstiles"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

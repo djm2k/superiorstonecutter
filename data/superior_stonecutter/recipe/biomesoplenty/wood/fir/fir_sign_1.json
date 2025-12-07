@@ -7,12 +7,20 @@
     {
       "item": "biomesoplenty:fir_slab"
     },
-	{
+    {
       "item": "biomesoplenty:fir_door"
     }
   ],
   "result": {
     "id": "biomesoplenty:fir_sign",
     "count": 1
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

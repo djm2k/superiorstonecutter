@@ -7,12 +7,20 @@
     {
       "item": "biomesoplenty:pine_slab"
     },
-	{
+    {
       "item": "biomesoplenty:pine_door"
     }
   ],
   "result": {
     "id": "biomesoplenty:pine_sign",
     "count": 1
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

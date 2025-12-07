@@ -4,10 +4,10 @@
     {
       "item": "biomesoplenty:redwood_trapdoor"
     },
-	{
+    {
       "item": "biomesoplenty:redwood_slab"
     },
-	{
+    {
       "item": "biomesoplenty:redwood_stairs"
     },
     {
@@ -17,5 +17,13 @@
   "result": {
     "id": "biomesoplenty:redwood_pressure_plate",
     "count": 2
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

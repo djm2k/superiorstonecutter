@@ -29,5 +29,13 @@
     "recipes": [
       "superior_stonecutter:deeperdarker/stone/gloomslate/cobbled_gloomslate_slab_1"
     ]
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "deeperdarker"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

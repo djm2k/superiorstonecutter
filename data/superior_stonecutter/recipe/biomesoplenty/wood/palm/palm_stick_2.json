@@ -7,7 +7,7 @@
     {
       "item": "biomesoplenty:palm_slab"
     },
-	{
+    {
       "item": "biomesoplenty:palm_fence"
     },
     {
@@ -17,5 +17,13 @@
   "result": {
     "id": "minecraft:stick",
     "count": 2
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

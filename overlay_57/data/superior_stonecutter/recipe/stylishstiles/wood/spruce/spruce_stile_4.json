@@ -9,5 +9,13 @@
   "result": {
     "id": "stylishstiles:spruce_stile",
     "count": 4
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "stylishstiles"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

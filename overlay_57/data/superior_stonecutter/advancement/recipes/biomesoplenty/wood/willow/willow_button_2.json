@@ -20,5 +20,13 @@
     "recipes": [
       "superior_stonecutter:biomesoplenty/wood/willow/willow_button_2"
     ]
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

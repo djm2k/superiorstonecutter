@@ -7,12 +7,20 @@
     {
       "item": "biomesoplenty:palm_slab"
     },
-	{
+    {
       "item": "biomesoplenty:palm_door"
     }
   ],
   "result": {
     "id": "biomesoplenty:palm_sign",
     "count": 1
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

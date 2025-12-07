@@ -7,12 +7,20 @@
     {
       "item": "biomesoplenty:empyreal_slab"
     },
-	{
+    {
       "item": "biomesoplenty:empyreal_door"
     }
   ],
   "result": {
     "id": "biomesoplenty:empyreal_sign",
     "count": 1
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

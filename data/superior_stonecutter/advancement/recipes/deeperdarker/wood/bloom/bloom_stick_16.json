@@ -18,5 +18,13 @@
     "recipes": [
       "superior_stonecutter:deeperdarker/wood/bloom/bloom_stick_16"
     ]
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "deeperdarker"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

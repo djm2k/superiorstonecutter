@@ -4,10 +4,10 @@
     {
       "item": "biomesoplenty:fir_trapdoor"
     },
-	{
+    {
       "item": "biomesoplenty:fir_slab"
     },
-	{
+    {
       "item": "biomesoplenty:fir_stairs"
     },
     {
@@ -17,5 +17,13 @@
   "result": {
     "id": "biomesoplenty:fir_pressure_plate",
     "count": 2
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

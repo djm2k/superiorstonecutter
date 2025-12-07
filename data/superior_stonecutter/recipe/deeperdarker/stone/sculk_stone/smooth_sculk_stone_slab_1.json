@@ -14,5 +14,13 @@
   "result": {
     "id": "deeperdarker:smooth_sculk_stone_slab",
     "count": 1
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "deeperdarker"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

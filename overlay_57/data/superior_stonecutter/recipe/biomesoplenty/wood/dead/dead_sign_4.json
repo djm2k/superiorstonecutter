@@ -9,5 +9,13 @@
   "result": {
     "id": "biomesoplenty:dead_sign",
     "count": 4
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

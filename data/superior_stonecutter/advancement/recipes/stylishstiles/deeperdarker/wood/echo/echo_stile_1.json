@@ -17,5 +17,13 @@
     "recipes": [
       "superior_stonecutter:stylishstiles/deeperdarker/wood/echo/echo_stile_1"
     ]
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "stylishstiles"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

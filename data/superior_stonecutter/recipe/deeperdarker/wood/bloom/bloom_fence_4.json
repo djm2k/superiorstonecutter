@@ -11,5 +11,13 @@
   "result": {
     "id": "deeperdarker:bloom_fence",
     "count": 4
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "deeperdarker"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

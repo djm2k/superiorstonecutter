@@ -11,5 +11,13 @@
   "result": {
     "id": "biomesoplenty:pine_button",
     "count": 1
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "biomesoplenty"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

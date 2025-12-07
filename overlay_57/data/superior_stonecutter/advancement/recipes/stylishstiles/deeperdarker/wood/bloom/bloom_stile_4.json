@@ -18,5 +18,13 @@
     "recipes": [
       "superior_stonecutter:stylishstiles/deeperdarker/wood/bloom/bloom_stile_4"
     ]
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "stylishstiles"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

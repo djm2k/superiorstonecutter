@@ -27,5 +27,13 @@
     "recipes": [
       "superior_stonecutter:deeperdarker/stone/sculk_stone/sculk_stone_stairs_1"
     ]
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "deeperdarker"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

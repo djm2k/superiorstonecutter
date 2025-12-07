@@ -7,12 +7,20 @@
     {
       "item": "deeperdarker:echo_slab"
     },
-	{
+    {
       "item": "deeperdarker:echo_door"
     }
   ],
   "result": {
     "id": "deeperdarker:echo_sign",
     "count": 1
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "deeperdarker"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

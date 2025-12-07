@@ -18,5 +18,13 @@
     "recipes": [
       "superior_stonecutter:deeperdarker/wood/echo/echo_stick_4"
     ]
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "deeperdarker"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }

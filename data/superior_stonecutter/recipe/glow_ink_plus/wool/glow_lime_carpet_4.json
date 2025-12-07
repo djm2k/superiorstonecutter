@@ -8,5 +8,13 @@
   "result": {
     "id": "glow_ink_plus:glow_lime_carpet",
     "count": 4
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "values": [
+        "glow_ink_plus"
+      ],
+      "condition": "fabric:all_mods_loaded"
+    }
+  ]
 }
